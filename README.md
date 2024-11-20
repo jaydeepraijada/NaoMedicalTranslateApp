@@ -2,8 +2,9 @@
 
 Access to Application at -> https://health-trans-ai-jraijada25.replit.app/
 
-
-Overview
+Use of AI for Coding Assistance -> Replit
+Use of AI for Language Translation - OPENAI Whisper, GPT4
+Overviev
 
 A real-time healthcare translation application that enables multilingual communication between healthcare providers and patients. 
 The system provides voice-to-text translation with specialized medical terminology support across 15 languages.
