@@ -37,8 +37,7 @@ Tech Stack
 3. Start recording your voice
 4. View real-time transcription and translation
 5. Use the speak button for audio playback
-6. Security & Privacy
-7. No permanent storage of medical information
-8. Secure API key management
-9. CORS configuration for controlled access
-10. Comprehensive error handling
+6. Security & Privacy - No permanent storage of medical information
+7. Secure API key management
+8. CORS configuration for controlled access
+9. Comprehensive error handling
