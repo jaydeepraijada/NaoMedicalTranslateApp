@@ -1,0 +1,13 @@
+.env
+__pycache__/
+*.pyc
+.replit
+.upm/
+.config/
+.cache/
+.vercel
+venv/
+*.pyo
+.pytest_cache/
+.coverage
+.env.*
