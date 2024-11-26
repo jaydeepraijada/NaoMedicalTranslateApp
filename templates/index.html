@@ -1,0 +1,90 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-md-10">
+        <div class="card">
+            <div class="card-header">
+                <div class="row">
+                    <div class="col-md-6">
+                        <select id="sourceLang" class="form-select">
+                            <option value="en">English</option>
+                            <option value="es">Spanish</option>
+                            <option value="fr">French</option>
+                            <option value="de">German</option>
+                            <option value="zh">Chinese</option>
+                            <option value="hi">Hindi</option>
+                            <option value="ja">Japanese</option>
+                            <option value="ko">Korean</option>
+                            <option value="ru">Russian</option>
+                            <option value="ar">Arabic</option>
+                            <option value="pt">Portuguese</option>
+                            <option value="it">Italian</option>
+                            <option value="nl">Dutch</option>
+                            <option value="pl">Polish</option>
+                            <option value="tr">Turkish</option>
+                        </select>
+                    </div>
+                    <div class="col-md-6">
+                        <select id="targetLang" class="form-select">
+                            <option value="es">Spanish</option>
+                            <option value="en">English</option>
+                            <option value="fr">French</option>
+                            <option value="de">German</option>
+                            <option value="zh">Chinese</option>
+                            <option value="hi">Hindi</option>
+                            <option value="ja">Japanese</option>
+                            <option value="ko">Korean</option>
+                            <option value="ru">Russian</option>
+                            <option value="ar">Arabic</option>
+                            <option value="pt">Portuguese</option>
+                            <option value="it">Italian</option>
+                            <option value="nl">Dutch</option>
+                            <option value="pl">Polish</option>
+                            <option value="tr">Turkish</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="mb-4">
+                    <h5>Original Text</h5>
+                    <div id="originalText" class="transcript-box p-3 mb-3"></div>
+                    <div class="mic-controls mb-3">
+                        <button id="testMicrophone" class="btn btn-info">
+                            <i class="fas fa-microphone-alt"></i> Test Microphone
+                        </button>
+                        <button id="startRecording" class="btn btn-primary">
+                            <i class="fas fa-microphone"></i> Start Recording
+                        </button>
+                        <button id="stopRecording" class="btn btn-danger" disabled>
+                            <i class="fas fa-stop"></i> Stop Recording
+                        </button>
+                        <div id="volumeMeter" class="volume-meter mt-2" style="display: none;">
+                            <div class="volume-bar"></div>
+                            <div class="volume-label">Volume Level</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="medicalInfo" class="alert alert-info mb-3" style="display: none;">
+                    <!-- Medical validation information will be displayed here -->
+                </div>
+                <div>
+                    <h5>Translated Text</h5>
+                    <div id="translatedText" class="transcript-box p-3 mb-3"></div>
+                    <button id="speakTranslation" class="btn btn-secondary">
+                        <i class="fas fa-volume-up"></i> Speak Translation
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div id="statusMessage" class="alert mt-3" style="display: none;"></div>
+        <div id="microphoneStatus" class="alert mt-3" style="display: none;"></div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/speech.js') }}"></script>
+<script src="{{ url_for('static', filename='js/app.js') }}"></script>
+{% endblock %}

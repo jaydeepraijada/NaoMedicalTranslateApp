@@ -1,0 +1,17 @@
+
+(24) ["Microsoft David - English (United States) (en-US)", "Microsoft Ravi - English (India) (en-IN)", "Microsoft Heera - English (India) (en-IN)", "Microsoft Mark - English (United States) (en-US)", "Microsoft Zira - English (United States) (en-US)", "Google Deutsch (de-DE)", "Google US English (en-US)", "Google UK English Female (en-GB)", "Google UK English Male (en-GB)", "Google español (es-ES)", "Google español de Estados Unidos (es-US)", "Google français (fr-FR)", "Google हिन्दी (hi-IN)", "Google Bahasa Indonesia (id-ID)", "Google italiano (it-IT)", "Google 日本語 (ja-JP)", "Google 한국의 (ko-KR)", "Google Nederlands (nl-NL)", "Google polski (pl-PL)", "Google português do Brasil (pt-BR)", "Google русский (ru-RU)", "Google 普通话（中国大陆） (zh-CN)", "Google 粤語（香港） (zh-HK)", "Google 國語（臺灣） (zh-TW)"]
+Using voice: Google español es-ES
+Browser synthesis failed: 
+Error {}
+
+at t.value (https://7624f5e6-b207-44ef-aab7-a2daacbf6b10-00-30g8a3tyvnezc.pike.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:17465)
+at new t (https://7624f5e6-b207-44ef-aab7-a2daacbf6b10-00-30g8a3tyvnezc.pike.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:12630)
+at t.value (https://7624f5e6-b207-44ef-aab7-a2daacbf6b10-00-30g8a3tyvnezc.pike.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:32766)
+at https://7624f5e6-b207-44ef-aab7-a2daacbf6b10-00-30g8a3tyvnezc.pike.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:34400
+Speech synthesis error: 
+Error {}
+
+at t.value (https://7624f5e6-b207-44ef-aab7-a2daacbf6b10-00-30g8a3tyvnezc.pike.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:17465)
+at new t (https://7624f5e6-b207-44ef-aab7-a2daacbf6b10-00-30g8a3tyvnezc.pike.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:12630)
+at t.value (https://7624f5e6-b207-44ef-aab7-a2daacbf6b10-00-30g8a3tyvnezc.pike.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:32766)
+at https://7624f5e6-b207-44ef-aab7-a2daacbf6b10-00-30g8a3tyvnezc.pike.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:34400
